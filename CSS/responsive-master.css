@@ -1,0 +1,70 @@
+
+@media screen and (max-width: 600px) {
+
+  /* hero */
+  .hero {
+    height: 50vh;
+    margin: 0;
+  }
+  
+.services {
+    display: block;
+    margin: 10%;
+    
+
+  }
+  .service-card {
+    width: 86%;
+    height: 350px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    /* border: 3px solid #670086; */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+  }
+ 
+
+
+
+  /* ------------------------- footer responsive ----------------- */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    justify-content: center;
+  }
+  .footer-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    
+  }
+  .subscribe-form {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .subscribe-form button {
+    margin: 10px 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-right .footer-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  } /* mobile responsive close */
+

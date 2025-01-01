@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+  <!-- -----------------------------------SERVICES--------------------------------------- -->
+<style>
+    .services {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      margin: 5%;
+      background: rgb(248, 248, 248);
+    }
+    .service-card {
+      width: 230px;
+      height: 300px;
+      border-radius: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      /* border: 3px solid #670086; */
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  
+    }
+    .service-card:hover {
+      border: 2px solid #670086;
+      transform: translateY(-15px);
+      scale: 1.2;
+    }
+    .service-icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #670086;
+      color: white;
+      text-align: center;
+      vertical-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+    }
+    p, h1 {
+      text-align: center;
+      color: #670086;
+    }
+    .service-card p a {
+      text-decoration: none;
+    }
+  
+  
+  
+    @media screen and (max-width: 600px) {
+  
+      .services {
+      display: block;
+      margin: 10%;
+      
+  
+    }
+    .service-card {
+      width: 86%;
+      height: 350px;
+      border-radius: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      /* border: 3px solid #670086; */
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  
+    }
+
+
+
+
+
+
+  
+    } /* mobile responsive close */
+  
+  
+    
+  </style>
+  
+  
+  <h1 class="display-head" style="color: #670086;"> Our Services</h1>
+    <section class="services">
+  
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-browser-edge"></i>
+        </div>
+        <h1>Web Development</h1>
+        <p>Finding the Best Solution for your Businesses.</p>
+        <p><a href="#">Get Started <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+  
+      <!-- coding -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-mobile-phone"></i>
+        </div>
+        <h1>App Development</h1>
+        <p>Finding the Best Solution for your Businesses.</p>
+        <p><a href="#">Get Started <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+      <!-- system development -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-system"></i>
+        </div>
+        <h1>System Development</h1>
+        <p>Finding the Best Solution for your Businesses.</p>
+        <p><a href="#">Get Started <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+  
+      <!-- design -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-browser-edge"></i>
+        </div>
+        <h1>Branding Design</h1>
+        <p>Finding the Best Solution for your Businesses.</p>
+        <p><a href="#">Get Started <i class="bi bi-arrow-up-right"></i></a></p>
+      </div>
+      
+  
+    </section>
+  
+
+
+</body>
+</html>
